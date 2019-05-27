@@ -106,6 +106,10 @@ class DetailMovieApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text(nama),
+        backgroundColor: Colors.red,
+      ),
       body: ListView(
         children: <Widget>[
           new Container(
